@@ -21,7 +21,7 @@
         html {
             font-family: 'Montserrat', sans-serif;
             color: rgb(242, 170, 197);
-            background-color: 0, 0, 0;
+            background-color: rgb(0, 0, 0);
             font-size: 15px;
         }
 
@@ -173,7 +173,12 @@
                 link.innerText = article.name;
                 container.append(link);
             }
-        }
+        } const md = require('markdown-it')({
+            html: true, // Разрешить HTML-теги
+            breaks: true, // Переносы строк
+            langPrefix: 'language-', // Префикс для блоков кода
+            // Убедитесь, что нет фильтрации символов
+        });
     </script>
 </body>
 

@@ -16,11 +16,7 @@ After finishing work on the skeleton of the appearance of the official website o
 
 The development of the site design and its skeleton will continue until the end of the 1st quarter of 2025. After approvals and corrections, development of the technical part of the site __will begin and will continue until the 3rd quarter of 2025__.
 
-| Page | Status |
-| ------:| -----------:|
-| Home   | Done |
-| About | In progress |
-| Contact    | None. |
+
 
 
 

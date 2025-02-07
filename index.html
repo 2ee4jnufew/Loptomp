@@ -83,6 +83,11 @@
 
         #article-content {
             margin-top: 30px;
+            flex: 1;
+        }
+
+        #homepage {
+            flex: 1;
         }
 
         blockquote {
@@ -121,6 +126,10 @@
         img {
             border-radius: 3px;
         }
+
+        footer {
+            height: 100px
+        }
     </style>
 </head>
 
@@ -133,17 +142,28 @@
             <h1 id="title-header" style="margin-bottom: 0; margin-top: 0.5em">Загрузка...</h1>
             <span id="date-display" style="opacity: 0.5; font-size: 0.9em">Дата отсутсвует</span>
             <div id="article-content"></div>
+            <footer>
+                <span>Loptomp</span>
+            </footer>
         </div>
 
         <div id="homepage" style="display: none">
-            <h1>Проекты</h1>
+            <h1 style="text-transform: uppercase;">Loptomp</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis hic consequatur magnam, culpa dolor
                 nisi adipisci id placeat repellendus.
             </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis hic consequatur magnam, culpa dolor
+                nisi adipisci id placeat repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique earum et modi necessitatibus, accusantium doloribus.
+            </p>
             <div id="article-list">
                 Загрузка проектов...
             </div>
+            <footer>
+                <span>Loptomp</span>
+            </footer>
         </div>
     </div>
 
@@ -231,7 +251,7 @@
             document.getElementById('article').style.display = 'none';
 
             const container = document.getElementById('article-list');
-            container.innerHTML = '<b>Articles</b>';
+            container.innerHTML = '<b>Проекты</b>';
 
             for (const article of articles) {
                 const link = document.createElement('a');

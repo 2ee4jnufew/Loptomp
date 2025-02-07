@@ -38,9 +38,17 @@
         .content {
             max-width: 1000px;
             width: calc(100% - 20px);
-            margin: 20px;
+            margin: 50px 20px 20px 20px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        .proj {
+            text-transform: uppercase;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 20px;
         }
 
         a {
@@ -57,21 +65,31 @@
         }
 
         #article-list a {
+            display: grid;
+            grid-auto-columns: 3em 1fr auto;
+            grid-template-areas: "bg title details";
+            height: 3em;
+            padding-left: 10px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 1.5em;
+            align-items: center;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             text-decoration: none;
-            padding: 15px 0px 15px 25px;
-            margin: 5px 0px;
-            color: rgba(242, 170, 196, 0.918);
-            background: #ff006124;
-            text-transform: uppercase;
-            border-radius: 3px;
-            border: 1px solid #ff006124;
-            transition: .3s;
+            color: unset;
+            background: rgba((242, 170, 197), 0.05);
+            transition: background-color 50ms ease-out;
         }
 
+        /* 
         #article-list a:hover {
             background: #ff006250;
             border: 1px solid #ff0062d5;
-        }
+        } */
 
         #article-list>a {
             margin-left: 0.5em;
@@ -256,7 +274,7 @@
             document.getElementById('article').style.display = 'none';
 
             const container = document.getElementById('article-list');
-            container.innerHTML = '<b>Проекты</b>';
+            container.innerHTML = '<b class="proj">Projects</b>';
 
             for (const article of articles) {
                 const link = document.createElement('a');

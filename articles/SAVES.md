@@ -1,15 +1,16 @@
-Разработка сайта
+## SAVES Website
 
-а текущий момент идет разработка дизайна сайта для компании ООО «SAVES». Начата разработка над скелетом сайта и внешним видом сайта в итоге.
+Currently, a website design is being developed for the company SAVES LLC. Development has begun on the skeleton of the site and the final appearance of the site.
 
-При разработке использованы цвета, которые предоставляют: google, telegram, lospec, color hunt и прочие material ui фреймворки. Сторонние изображения не будут использоваться в ходе разработки, все изображения будут заменены пустыми блоками.
-
-После конца работы над скелетом внешнего вида официального сайта ООО «SAVES» будут запрошены изображения от дизайнеров компании для замены их на сайте. Будет добавлен незаметный фон для уплотнения страниц сайта.
+During development, we used colors provided by: google, telegram, lospec, color hunt and other material ui frameworks. Third-party images will not be used during development, all images will be replaced with empty blocks.
 
 ___
 
-После всех этих этапов начнется разработка официального сайта компании ООО «SAVES». Сайт будет разработан на React JS, CSS, JS.
+After finishing work on the skeleton of the appearance of the official website of SAVES LLC, images will be requested from the company's designers to replace them on the site. An inconspicuous background will be added to enhance the appearance of the site pages.
 
-Разработка дизайна сайта и его скелета будет идти до конца 1 квартала 2025 года. После согласований и правок начнется разработка технической части сайта и идти она будет до 3 квартала 2025 года.
+After all these stages, the development of the official website of SAVES LLC will begin. The site will be developed in React JS, CSS, JS.
 
-![Сайт](/media/web.jpg)
+The development of the site design and its skeleton will continue until the end of the 1st quarter of 2025. After approvals and corrections, development of the technical part of the site will begin and will continue until the 3rd quarter of 2025.
+
+
+![Сайт](media/web.jpg)

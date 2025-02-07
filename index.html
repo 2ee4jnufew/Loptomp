@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsociable</title>
+    <title>Loptomp</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"
         integrity="sha512-SYfDUYPg5xspsG6OOpXU366G8SZsdHOhqk/icdrYJ2E/WKZxPxze7d2HD3AyXpT7U22PZ5y74xRpqZ6A2bJ+kQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 
     <style>
         html {
-            font-family: 'Barlow', sans-serif;
-            color: #f2f2f2;
-            background-color: #09090f;
-            font-size: 1.3em;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(242, 170, 197);
+            background-color: 0, 0, 0;
+            font-size: 15px;
         }
 
         .content {
@@ -32,7 +34,7 @@
         }
 
         a {
-            color: white;
+            color: rgb(242, 170, 197);
         }
 
         #article-list {
@@ -47,6 +49,12 @@
         #article-content * {
             max-width: 100%;
         }
+
+        #title-header {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 
@@ -54,20 +62,21 @@
     <div class="content">
         <div id="article" style="display: none">
             <div style="display: flex; flex-direction: row;">
-                <a href="/">return home</a>
+                <a href="/">На Главную</a>
             </div>
-            <h1 id="title-header" style="margin-bottom: 0; margin-top: 0.5em">Loading...</h1>
-            <span id="date-display" style="opacity: 0.5; font-size: 0.9em">unknown date</span>
+            <h1 id="title-header" style="margin-bottom: 0; margin-top: 0.5em">Загрузка...</h1>
+            <span id="date-display" style="opacity: 0.5; font-size: 0.9em">Дата отсутсвует</span>
             <div id="article-content"></div>
         </div>
 
         <div id="homepage" style="display: none">
-            <h1>My thoughts</h1>
+            <h1>Проекты</h1>
             <p>
-                In an attempt to become less reserved, I have created this public personal journal.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis hic consequatur magnam, culpa dolor
+                nisi adipisci id placeat repellendus.
             </p>
             <div id="article-list">
-                loading...
+                Загрузка проектов...
             </div>
         </div>
     </div>

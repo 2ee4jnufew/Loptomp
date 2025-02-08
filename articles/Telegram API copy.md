@@ -30,12 +30,15 @@ Even if you're looking for maximum customization, you don't have to create your 
 
 TDLib supports all Telegram features and makes developing Telegram apps a breeze on any platform. It can be used on Android, iOS, Windows, macOS, Linux and virtually any other system. The library is open source and compatible with virtually any programming language.
 
+```
 <details>
   <summary>
     Tech Center
   </summary>
 <img src="https://shutok.ru/uploads/posts/2024-12/thumbs/1734858111_shutok.ru.img_9839.jpeg" alt="tech">
 </details>
+```
+
 
 [More about API here](http://dev.nodeca.com)
 

@@ -17,13 +17,13 @@ This API allows you to connect bots to our system. Telegram Bots are special acc
 
 To use this, you don't need to know anything about how our MTProto encryption protocol works — our intermediary server will handle all encryption and communication with the Telegram API for you. You communicate with this server via a simple HTTPS-interface that offers a simplified version of the Telegram API.
 
-Learn more about the Bot API here »
+Learn more about the Bot API here»
 
 > Bot developers can also make use of our Payments API to accept payments from Telegram users around the world.
 
 ___
 
-TDLib – build your own Telegram
+TDLib - build your own Telegram
 Even if you're looking for maximum customization, you don't have to create your app from scratch. Try our Telegram Database Library (or simply TDLib), a tool for third-party developers that makes it easy to build fast, secure and feature-rich Telegram apps.
 
 >TDLib takes care of all network implementation details, encryption and local data storage, so that you can dedicate more time to design, > responsive interfaces and beautiful animations.

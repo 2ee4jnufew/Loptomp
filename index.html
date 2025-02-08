@@ -44,10 +44,9 @@
         }
 
         .proj {
-            text-transform: uppercase;
             font-family: 'Nunito', sans-serif;
             font-weight: 600;
-            font-size: 20px;
+            font-size: 25px;
             margin-top: 20px;
         }
 
@@ -81,7 +80,7 @@
             text-overflow: ellipsis;
             text-decoration: none;
             color: unset;
-            background: rgba(242, 170, 196, 0.116);
+            background: rgba(242, 170, 196, 0.082);
             transition: background-color 50ms ease-out;
         }
 
@@ -92,7 +91,7 @@
         } */
 
         #article-list>a {
-            margin-left: 0.5em;
+            /* margin-left: 0.5em; */
         }
 
         #article-content * {
@@ -158,14 +157,20 @@
             opacity: 95%;
             background: #ff00611c;
         }
+
+        .footer-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-text span {
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="content"> 
-        <header>
-            <a href="/Loptomp?a=Telegram-ApPI.md">Contact</a>
-        </header>  
+    <div class="content">
         <div id="article" style="display: none">
             <div style="display: flex; flex-direction: row;">
                 <a href="/Loptomp/">На Главную</a>
@@ -192,7 +197,11 @@
             </div>
         </div>
         <footer>
-            <span>Loptomp</span>
+            <hr>
+            <div class="footer-text">
+                <span>Website make by © Loptomp 2025</span>
+                <span>Use Markdown-it and Github API</span>
+            </div>
         </footer>
     </div>
 
@@ -221,8 +230,7 @@
                     document.getElementById('title-header').innerText = data.name.split('.')[0];
 
                     const article = {
-                        localPath: 'articles/' + data.name,
-                        localPath: 'header/' + data.name
+                        localPath: 'articles/' + data.name
                     }
                     getDate(article, date => {
                         const elem = document.getElementById('date-display');
@@ -289,12 +297,7 @@
                 link.innerText = article.name;
                 container.append(link);
             }
-        } const md = require('markdown-it')({
-            html: true, // Разрешить HTML-теги
-            breaks: true, // Переносы строк
-            langPrefix: 'language-', // Префикс для блоков кода
-            // Убедитесь, что нет фильтрации символов
-        });
+        }
     </script>
 </body>
 

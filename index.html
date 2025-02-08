@@ -164,7 +164,7 @@
 <body>
     <div class="content"> 
         <header>
-            <a href="/Loptomp?a=Telegram-API.md">Contact</a>
+            <a href="/Loptomp?a=Telegram-A1PI.md">Contact</a>
         </header>  
         <div id="article" style="display: none">
             <div style="display: flex; flex-direction: row;">
@@ -221,7 +221,8 @@
                     document.getElementById('title-header').innerText = data.name.split('.')[0];
 
                     const article = {
-                        localPath: 'articles/' + data.name
+                        localPath: 'articles/' + data.name,
+                        localPath: 'header/' + data.name
                     }
                     getDate(article, date => {
                         const elem = document.getElementById('date-display');
